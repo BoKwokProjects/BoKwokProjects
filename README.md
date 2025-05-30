@@ -1,16 +1,14 @@
-## Hi there 👋
+Welcome to the BoKwokProjects repository! This collection showcases various projects developed by Bo Kwok, focusing on areas such as deep learning and medical imaging.
 
-<!--
-**BoKwokProjects/BoKwokProjects** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+📁 Repository Structure
 
-Here are some ideas to get you started:
+ISIC 2024 Medical Dataset/: Resources and analyses related to the ISIC 2024 medical imaging dataset.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+C#/: Contains projects developed using the C# programming language.
+
+Deep Learning 1/: Includes deep learning models and experiments.
+
+📊 Technologies Used
+Programming Languages: Python, C#
+
+Tools & Frameworks: Jupyter Notebook, Deep Learning Libraries (e.g., TensorFlow, PyTorch)
