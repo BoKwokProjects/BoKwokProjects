@@ -2,11 +2,13 @@ Welcome to the BoKwokProjects repository! This collection showcases various proj
 
 📁 Repository Structure
 
-ISIC 2024 Medical Dataset/: Resources and analyses related to the ISIC 2024 medical imaging dataset.
-
 C#/: Contains projects developed using the C# programming language.
 
-Deep Learning 1/: Includes deep learning models and experiments.
+ISIC 2024 Medical Dataset/:
+
+Deep Learning/: Resources and analyses related to the ISIC 2024 medical imaging dataset using deep learning approaches.
+
+Traditional Machine Learning/: Analyses using traditional machine learning techniques on the ISIC 2024 dataset.
 
 📊 Technologies Used
 Programming Languages: Python, C#
