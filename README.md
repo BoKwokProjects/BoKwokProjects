@@ -16,7 +16,5 @@ Programming Languages: Python, C#
 Tools & Frameworks: Jupyter Notebook, Deep Learning Libraries (e.g., TensorFlow, PyTorch)
 
 ## License
+This project is licensed under the MIT License.
 
-This project is **not licensed for reuse**.
-
-All code is provided **for viewing purposes only**. You may **not** copy, modify, distribute, or use any part of this repository without explicit written permission from the author.
