@@ -4,11 +4,11 @@ Welcome to the BoKwokProjects repository! This collection showcases various proj
 
 C#/: Contains projects developed using the C# programming language.
 
-ISIC 2024 Medical Dataset/:
+ISIC 2024 Medical Dataset Traditional Machine Learning/: Analyses using traditional machine learning techniques on the ISIC 2024 dataset.
 
-Deep Learning/: Resources and analyses related to the ISIC 2024 medical imaging dataset using deep learning approaches.
+ISIC Balanced Split Medical Dataset Deep Learning/: Resources and analyses related to the ISIC 2024 medical imaging dataset using deep learning approaches.
 
-Traditional Machine Learning/: Analyses using traditional machine learning techniques on the ISIC 2024 dataset.
+
 
 📊 Technologies Used
 Programming Languages: Python, C#
