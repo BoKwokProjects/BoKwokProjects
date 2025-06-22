@@ -1,4 +1,4 @@
-🧠 Dissertation: Skin Lesion Classification using ML & DL
+🧠 Final Year Dissertation on Traditional Machine Learning and Deep Learning using the ISIC 2024 Dataset:
 This project presents a comparative study of traditional machine learning and deep learning methods for classifying skin lesions, leveraging the ISIC 2024 SLICE-3D dataset. The dataset uniquely combines dermoscopic images with 3D physical lesion metadata—enabling a comprehensive evaluation of both image-based and structured-data models.
 
 The work involves:
