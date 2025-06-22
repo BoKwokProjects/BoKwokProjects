@@ -1,1 +1,27 @@
+🧠 Dissertation: Skin Lesion Classification using ML & DL
+This project presents a comparative study of traditional machine learning and deep learning methods for classifying skin lesions, leveraging the ISIC 2024 SLICE-3D dataset. The dataset uniquely combines dermoscopic images with 3D physical lesion metadata—enabling a comprehensive evaluation of both image-based and structured-data models.
+
+The work involves:
+
+Implementing and tuning six traditional ML models: Naïve Bayes, Decision Tree, Random Forest, XGBoost, LGBM, CatBoost.
+
+Developing and testing four deep learning models: AlexNet, ResNet50, VGG11, and Vision Transformer (ViT).
+
+Using Google Colab for model development, training, and evaluation.
+
+Comparing models across multiple metrics: Accuracy, F1 Score, Precision, Recall, and ROC-AUC.
+
+Key Insight:
+Traditional machine learning models—especially gradient boosting algorithms like XGBoost—outperformed deep learning counterparts in this study. XGBoost achieved 88.5% test accuracy and 88.1% F1 score, while deep learning models underperformed due to dataset size and computational constraints.
+
+This repository includes:
+
+Preprocessing scripts
+
+Model training and evaluation code
+
+Hyperparameter tuning strategies
+
+Experimental results and analysis
+
 
