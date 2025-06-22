@@ -1,4 +1,4 @@
-📊 Big Data Project – Bo Kwok (22454220)
+📊 Big Data Project – Bo Kwok
 This repository contains a comprehensive Big Data coursework project divided into three key steps. It explores real-world data processing using technologies such as PySpark, Kafka, and Hadoop in Google Colab environments. The tasks cover statistical hypothesis testing with Amazon review data and real-time data pipeline development using OpenWeatherAPI.
 
 ✅ Step 1 – Hypothesis Formulation and Data Analysis with PySpark
@@ -39,8 +39,8 @@ Stores results efficiently into Hadoop in Parquet format
 The project demonstrates how these technologies collaborate to build a scalable, distributed data platform suitable for real-time analytics.
 
 📁 Contents
-Bo_Kwok_22454220_Big_Data_Step_1.ipynb – PySpark analysis and hypothesis testing
+Bo Kwok Big Data Step 1.ipynb – PySpark analysis and hypothesis testing
 
-Bo Kwok 22454220 Big data assignment .docx – Formal written report (Step 2)
+Bo Kwok Big data assignment .docx – Formal written report (Step 2)
 
-Bo Kwok 22454220 Big Data Step 3.ipynb – Kafka + Spark + Hadoop big data pipeline
+Bo Kwok Big Data Step 3.ipynb – Kafka + Spark + Hadoop big data pipeline
