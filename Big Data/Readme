@@ -1,1 +1,46 @@
+📊 Big Data Project – Bo Kwok (22454220)
+This repository contains a comprehensive Big Data coursework project divided into three key steps. It explores real-world data processing using technologies such as PySpark, Kafka, and Hadoop in Google Colab environments. The tasks cover statistical hypothesis testing with Amazon review data and real-time data pipeline development using OpenWeatherAPI.
 
+✅ Step 1 – Hypothesis Formulation and Data Analysis with PySpark
+The initial step involved processing an Amazon product review dataset to explore a data-driven hypothesis. The hypothesis was:
+
+“In Q2 2014 (April 1 - June 30, 2014), products with an average rating of 3 or higher received significantly more reviews than products with an average rating below 3.”
+
+Using PySpark in Google Colab, data was filtered within the specified Unix time range and grouped by product_id to calculate:
+
+Average product rating
+
+Number of reviews per product
+
+A one-tailed, two-sample t-test was then conducted using scipy.stats.ttest_ind. The result confirmed the hypothesis with an extremely low p-value of 7.56e-168, indicating strong statistical significance. Visualization showed that high-rated products averaged 5.978 reviews vs. 2.691 for low-rated ones.
+
+📑 Step 2 – Formal Report on Step 1
+This document formalizes and expands on the results from Step 1. It provides detailed interpretation, statistical validation, figures, and visual insights. It discusses the significance of high-rated products attracting more reviews and reflects on the efficiency of tools such as PySpark and cloud environments like Google Colab. Additionally, it suggests future improvements, such as extending timeframes and integrating user demographics for richer analysis.
+
+🌐 Step 3 – Real-Time Big Data Pipeline with Kafka, Spark, and Hadoop
+This task simulates a real-world big data processing pipeline using:
+
+Kafka (with Zookeeper): for real-time data ingestion from OpenWeatherAPI
+
+Spark (PySpark): for stream processing and linear regression modeling
+
+Hadoop (HDFS): for scalable data storage using Parquet format
+
+The pipeline:
+
+Fetches live weather data for Hong Kong every 60 seconds via OpenWeatherAPI
+
+Sends data through Kafka's weatherAssignment topic
+
+Processes structured data in Spark, performing ML tasks using pyspark.ml (to avoid deprecation warnings from pyspark.mllib)
+
+Stores results efficiently into Hadoop in Parquet format
+
+The project demonstrates how these technologies collaborate to build a scalable, distributed data platform suitable for real-time analytics.
+
+📁 Contents
+Bo_Kwok_22454220_Big_Data_Step_1.ipynb – PySpark analysis and hypothesis testing
+
+Bo Kwok 22454220 Big data assignment .docx – Formal written report (Step 2)
+
+Bo Kwok 22454220 Big Data Step 3.ipynb – Kafka + Spark + Hadoop big data pipeline
