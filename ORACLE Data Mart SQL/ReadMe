@@ -1,1 +1,89 @@
+📊 Oracle Data Mart for a theatre company in London
+This repository contains Bo Kwok's Individual Portfolio Project for the coursework titled Design and Coding, submitted for unit 6G6Z0026_2425_9. The project presents the design and implementation of a prototype Oracle Data Mart for a theatre company in London, focusing on ticket sales performance analysis.
 
+🧩 Data Mart Overview
+A Snowflake Schema is adopted for the  Data Mart, centered around a Sales Fact table and supported by six dimension tables:
+
+Theatre
+
+Production
+
+Performance
+
+Customer
+
+Date
+
+(Optional future addition: Staff)
+
+Key Schema Decisions:
+Normalized schema to avoid data redundancy.
+
+Surrogate keys for efficient joins.
+
+Date dimension included for time-series analysis.
+
+Staff data is excluded due to irrelevance to ticket sales metrics.
+
+🛠 Tables & Attributes
+🔹 Sales Fact Table
+Primary Key: SalesFactNo
+
+Foreign Keys: TheatreNo, ProductionNo, PerformanceNo, CustomerID, DateID
+
+Attributes: PaymentMethod, DeliveryMethod, TotalAmount
+
+🔹 Dimension Tables
+Theatre: TheatreName, TheatreAddress, MainTel
+Production: ProductionTitle, ProductionDirector, PlayAuthor
+Performance: pDate, pHour, pMinute, Comments
+Customer: CustomerTitle, CustomerName, CustomerAddress, TelNo, Email
+Date: FullDate, Year, Month, Day
+
+🔧 Future Expansions
+Add ServiceCharge, DiscountAmount, and TotalTickets to Sales Fact.
+
+Add capacity and operational cost data to Theatre.
+
+Add duration to Production.
+
+Track customer lifetime value.
+
+Add fiscal periods and quarters to Date.
+
+Introduce a Staff dimension for HR analytics.
+
+🧪 SQL Implementation
+All SQL CREATE TABLE and INSERT INTO commands are included, executed successfully in Oracle APEX 22.1.
+
+Data types validated with CHECK constraints.
+
+Referential integrity enforced.
+
+Sample records included for each table.
+
+📈 Analytical Queries
+Four analytical queries were designed and tested:
+
+Yearly Total Sales per Theatre
+
+Uses ROLLUP for yearly and grand totals.
+
+Average Monthly Sales per Theatre
+
+Uses CUBE to identify seasonal trends.
+
+Frequent Customers Analysis
+
+Identifies customers who visited LTC in 4+ distinct months in a year.
+
+Top Grossing Productions
+
+Uses RANK() to find productions with highest total sales.
+
+Each query is explained, justified, and backed with results.
+
+🗂 Files Included
+📄 Bo Kwok Oracle Data Mart.docx: Full design report with SQL code and screenshots.
+
+📑 Bo Kwok Oracle Data Mart.pdf: PDF export of the DOCX file for quick view.
