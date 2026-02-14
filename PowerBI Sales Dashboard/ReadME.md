@@ -23,7 +23,7 @@ This project analyzes sales and customer performance using Power BI, focusing on
 - Customer Segmentation
 
 ## 📷 Dashboard Preview
-![Dashboard](screenshots/dash1.png)
+![Dashboard](https://github.com/BoKwokProjects/BoKwokProjects/blob/main/PowerBI%20Sales%20Dashboard/sales_performance_overview.png)
 
 ## 👤 Author
 Bo Kwok
