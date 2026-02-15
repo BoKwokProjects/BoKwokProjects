@@ -10,9 +10,10 @@ Final Year Dissertation on Traditional Machine Learning and Deep Learning using 
 
 ISIC 2024 Medical Dataset (Traditional Machine Learning)/: A metadata-driven skin lesion classification project using traditional machine learning models inspired by the Chaos and Clues diagnostic approach, achieving up to 90.8% accuracy with Random Forest in distinguishing benign from malignant cases.
 
-ISIC Balanced Split Medical Dataset (Deep Learning)/: Skin Cancer Detection Using Deep Learning
+ISIC Balanced Split Medical Dataset (Deep Learning)/: 
 A comparative study of AlexNet, VGG11, ResNet50, and Vision Transformer models on balanced and imbalanced ISIC dermoscopy datasets to classify benign and malignant skin lesions. 
 
+ORACLE Data Mart SQL: Designed and implemented a Snowflake-schema Oracle Data Mart to analyze ticket sales performance, featuring validated SQL tables, referential integrity, and advanced analytical queries using ROLLUP, CUBE, and RANK functions. The project delivers insights into sales trends, customer behavior, and top-performing productions through a fully tested Oracle APEX implementation.
 
 
 📊 Technologies Used
