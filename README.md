@@ -10,7 +10,8 @@ Final Year Dissertation on Traditional Machine Learning and Deep Learning using 
 
 ISIC 2024 Medical Dataset (Traditional Machine Learning)/: A metadata-driven skin lesion classification project using traditional machine learning models inspired by the Chaos and Clues diagnostic approach, achieving up to 90.8% accuracy with Random Forest in distinguishing benign from malignant cases.
 
-ISIC Balanced Split Medical Dataset (Deep Learning)/: Resources and analyses related to the balanced medical imaging dataset (Cassidy et al., 2022) using deep learning approaches.
+ISIC Balanced Split Medical Dataset (Deep Learning)/: Skin Cancer Detection Using Deep Learning
+A comparative study of AlexNet, VGG11, ResNet50, and Vision Transformer models on balanced and imbalanced ISIC dermoscopy datasets to classify benign and malignant skin lesions. 
 
 
 
