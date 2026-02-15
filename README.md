@@ -2,7 +2,9 @@ Welcome to the BoKwokProjects repository! This collection showcases various proj
 
 📁 Repository Structure
 
-C#/: Contains projects developed using the C# programming language.
+C#: Contains projects developed using the C# programming language.
+
+Final Year Dissertation on Traditional Machine Learning and Deep Learning using the ISIC 2024 Dataset: A comparative study analyzing the performance of traditional machine learning and deep learning models for skin lesion classification using the ISIC 2024 SLICE-3D dataset. 
 
 ISIC 2024 Medical Dataset (Traditional Machine Learning)/: Analyses using traditional machine learning techniques on the ISIC 2024 dataset.
 
