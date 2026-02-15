@@ -2,6 +2,8 @@ Welcome to the BoKwokProjects repository! This collection showcases various proj
 
 📁 Repository Structure
 
+Big Data: A comprehensive big data project using PySpark, Kafka, Spark, and Hadoop to analyze Amazon review data through statistical hypothesis testing and to build a real-time weather data pipeline with OpenWeatherAPI. The project demonstrates large-scale data processing, machine learning integration, and distributed storage in cloud-based environments.
+
 C#: Contains projects developed using the C# programming language.
 
 Final Year Dissertation on Traditional Machine Learning and Deep Learning using the ISIC 2024 Dataset: A comparative study analyzing the performance of traditional machine learning and deep learning models for skin lesion classification using the ISIC 2024 SLICE-3D dataset. 
