@@ -15,6 +15,8 @@ A comparative study of AlexNet, VGG11, ResNet50, and Vision Transformer models o
 
 ORACLE Data Mart SQL: Designed and implemented a Snowflake-schema Oracle Data Mart to analyze ticket sales performance, featuring validated SQL tables, referential integrity, and advanced analytical queries using ROLLUP, CUBE, and RANK functions. The project delivers insights into sales trends, customer behavior, and top-performing productions through a fully tested Oracle APEX implementation.
 
+PowerBI Sales Dashboard: An interactive Power BI dashboard that analyzes sales and customer behavior through KPI tracking, regional and category performance, and customer segmentation to support data-driven decision-making.
+
 
 📊 Technologies Used
 Programming Languages: Python, C#
