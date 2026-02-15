@@ -1,2 +1,51 @@
-Deep learning approaches applied to the ISIC 2024 skin lesion dataset. 
-Projects here likely focus on classification or segmentation of medical images using convolutional neural networks (CNNs) and model training pipelines.
+🩺 Skin Cancer Detection Using Deep Learning
+
+This project investigates how dataset balance, image augmentation, and early stopping affect deep learning performance in skin cancer classification.
+
+Four models were evaluated on balanced and imbalanced datasets using dermoscopy images.
+
+📌 Models Used
+
+AlexNet
+
+VGG11
+
+ResNet50
+
+Vision Transformer (ViT)
+
+📂 Datasets
+
+ISIC Balanced Dataset
+
+ISIC 2016 Dataset
+
+Both datasets were used for binary classification (Benign vs Malignant).
+
+⚙️ Methodology
+
+Framework: PyTorch
+
+Optimizer: Adam
+
+Loss: Binary Cross Entropy
+
+Augmentation: Horizontal Flip, Color Jitter
+
+Evaluation: Accuracy, Precision, Recall, F1-score, AUC
+
+32 experiments were conducted with different combinations of:
+
+With / Without augmentation
+
+With / Without early stopping
+
+📊 Key Results
+
+Balanced datasets produced significantly better results.
+
+ResNet and VGG performed best overall.
+
+Image augmentation had limited impact.
+
+Early stopping reduced training time but sometimes lowered performance.
