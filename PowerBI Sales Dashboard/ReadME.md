@@ -3,6 +3,12 @@
 ## 📌 Overview
 This project analyzes sales and customer performance using Power BI, focusing on KPI tracking and customer segmentation.
 
+• Built an interactive Sales & Customer Performance Dashboard in Power BI using Power Query, DAX, and dimensional modeling.
+• Performed comprehensive data cleaning and preprocessing (removed duplicates, standardized formats, corrected data types, and validated data consistency).
+• Designed KPIs (Sales, Profit, AOV, Margin), customer segmentation, and profitability analysis.
+• Implemented interactive slicers and quadrant analysis to support business decision-making.
+• Transformed raw retail data into clean, structured, actionable insights for performance monitoring.
+
 ## 🛠 Tools
 - Power BI
 - Power Query
